@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Party Guest Scanner</title>
+    <link rel="stylesheet" type="text/css" href="Barcode.css">
+</head>
+<body>
+    <h1>Party Guest Scanner</h1>
+    
+    <h2>Scan Guest</h2>
+    <input type="text" id="nameInput" placeholder="Enter guest name">
+    <button onclick="scanName()">Scan</button>
+
+    <h2>Check Guest Status</h2>
+    <input type="text" id="statusCheckInput" placeholder="Check if guest is here">
+    <button onclick="checkGuestStatus()">Check Status</button>
+    <div id="statusCheckResult"></div>
+
+    <button onclick="clearScannedList()">Clear Scanned List</button>
+    
+    <div id="result"></div>
+
+    <h2>Scanned Guests</h2>
+    <div id="scannedList"></div>
+
+    <h2>Guest Count</h2>
+    <p id="guestCount"></p>
+
+    <script src="Barcode.js"></script>
+</body>
+</html>
