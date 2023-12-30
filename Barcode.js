@@ -52,7 +52,7 @@ function updateScannedList() {
 }
 
 function updateGuestCount() {
-    document.getElementById('guestCount').innerHTML = `Total guests arrived: ${Object.keys(scannedNames).length} out of 80`;
+    document.getElementById('guestCount').innerHTML = `Total guests arrived: ${Object.keys(scannedNames).length} out of 10`;
 }
 
 // Initial update on page load
