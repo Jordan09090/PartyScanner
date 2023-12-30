@@ -1,24 +1,5 @@
 let guestList = [
-    "Aiden Smith", "Isabella Johnson", "Mingyu Kim", "Fatima Al-Hassan",
-    "Santiago Garcia", "Emma Martinez", "Hiroshi Tanaka", "Chloe Dubois",
-    "Raj Patel", "Sofia Rodriguez", "Liam O'Reilly", "Amelia Ivanova",
-    "Juan Perez", "Mia Nguyen", "Oliver Kowalski", "Zoe Schwartz",
-    "Lucas Silva", "Abigail Muller", "Noah Levi", "Lily Popova",
-    "Ethan Goldberg", "Aisha Khan", "Mateo Fernandez", "Ella Smirnova",
-    "Benjamin Cohen", "Nora Kaur", "Samuel Wong", "Charlotte Meunier",
-    "Jackson Ortiz", "Harper Schneider", "Alexander Vasquez", "Emily Rasmussen",
-    "Michael Santos", "Ava Rossi", "William Garcia", "Sofia Singh",
-    "Daniel Hernandez", "Madison Yamamoto", "Logan Gupta", "Isla Fischer",
-    "James Ali", "Olivia Johansson", "Jacob Zhang", "Emily Díaz",
-    "Henry Chaudhry", "Grace Ochoa", "Sebastian Lin", "Mia Moreau",
-    "Gabriel Santos", "Elizabeth Gutiérrez", "Aiden Patel", "Sophia Chen",
-    "Jack Sharma", "Avery Gonzalez", "Dylan Kim", "Riley Jansen",
-    "Caleb Nkosi", "Layla Petrova", "Isaac Lee", "Zoe Nguyen",
-    "Joshua Castillo", "Scarlett Johansen", "Andrew Gomes", "Victoria Zhao",
-    "Wyatt Ahmed", "Ella Ivanovic", "Nathan Lopez", "Harper Chatterjee",
-    "Elijah Ng", "Lillian Yoshida", "Connor Da Silva", "Aria Kapoor",
-    "Gavin O'Neil", "Maya Agarwal", "Levi Martinez", "Penelope Santos",
-    "Christian Zhou", "Hannah Schmidt", "Grayson Li", "Amelia Wong"
+    "Jordan Bantleman", "Hugh Chen", Marie Bantleman", Charriot Bantleman", "Luke Terri", "Josh Terri", Ezra Holland", "Pricilla Dinardo", "Guande Cen", "Rick Bantleman"
 ];
 
 let scannedNames = JSON.parse(localStorage.getItem("scannedNames")) || {};
