@@ -1,5 +1,5 @@
 let guestList = [
-    "Jordan Bantleman", "Hugh Chen", Marie Bantleman", Charriot Bantleman", "Luke Terri", "Josh Terri", Ezra Holland", "Pricilla Dinardo", "Guande Cen", "Rick Bantleman"
+    "Jordan Bantleman", "Hugh Chen", "Marie Bantleman", "Charriot Bantleman", "Luke Terri", "Josh Terri", "Ezra Holland", "Pricilla Dinardo", "Guande Cen", "Rick Bantleman"
 ];
 
 let scannedNames = JSON.parse(localStorage.getItem("scannedNames")) || {};
