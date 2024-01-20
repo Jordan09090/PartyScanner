@@ -5,26 +5,40 @@
     <link rel="stylesheet" type="text/css" href="Barcode.css">
 </head>
 <body>
-    <h1>Wedding Scanner</h1>
-    
-    <h2>Scan Guest</h2>
-    <input type="text" id="nameInput" placeholder="Enter guest name">
-    <button onclick="scanName()">Scan</button>
+    <div class="container">
+        <h1>Wedding Scanner</h1>
+        
+        <section class="section">
+            <h2>Scan Guest</h2>
+            <input type="text" id="nameInput" placeholder="Enter guest name">
+            <button onclick="scanName()">Scan</button>
+        </section>
 
-    <h2>Check Guest Status</h2>
-    <input type="text" id="statusCheckInput" placeholder="Check if guest is here">
-    <button onclick="checkGuestStatus()">Check Status</button>
-    <div id="statusCheckResult"></div>
+        <section class="section">
+            <h2>Check Guest Status</h2>
+            <input type="text" id="statusCheckInput" placeholder="Check if guest is here">
+            <button onclick="checkGuestStatus()">Check Status</button>
+            <div id="statusCheckResult"></div>
+        </section>
 
-    <button onclick="clearScannedList()">Clear Scanned List</button>
-    
-    <div id="result"></div>
+        <button class="clear-button" onclick="clearScannedList()">Clear Scanned List</button>
+        
+        <div id="result" class="result"></div>
 
-    <h2>Scanned Guests</h2>
-    <div id="scannedList"></div>
+        <section class="section">
+            <h2>Scanned Guests</h2>
+            <div id="scannedList"></div>
+        </section>
 
-    <h2>Guest Count</h2>
-    <p id="guestCount"></p>
+        <section class="section">
+            <h2>Guest Count</h2>
+            <p id="guestCount"></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>All rights reserved © Made by Jordan</p>
+    </footer>
 
     <script src="Barcode.js"></script>
 </body>
